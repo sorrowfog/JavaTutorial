@@ -9,11 +9,10 @@ public class TwoInputs {
         Scanner sc = new Scanner(System.in);
         int d = sc.nextInt();
 
-            if ((d % 2) == 0){
-                int c = x + d;
+        if ((d % 2) == 0) {
+            int c = x + d;
             System.out.print(c);
-        }
-        else{
+        } else {
             int w = x * d;
             System.out.print(w);
 
